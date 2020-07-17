@@ -4,7 +4,7 @@
 __author__ = "Nurul Mamun"
 __date__ = " 13 July, 2020"
 __version__ = "1.0"
-__description__ = "Practice - Validating User Input"
+__description__ = "Practice - Validating User Input - within certain range & type"
 # ==============================================================
 
 # ========== Imports ===========================================
@@ -23,11 +23,11 @@ def user_input():
     while choice.isdigit() == False or within_range == False:
         choice = input("Please enter a number (0-10): ")
 
-        # Digit check
+        # Digit check - user typed input is a numeric character or not
         if choice.isdigit() == False:
             print("Sorry, that is not a digit")
         
-        # Range check
+        # Range check - user typed numeric character is within the asked range or not
         if choice.isdigit() == True:
             if int(choice) in acceptable_value:
                 within_range = True
