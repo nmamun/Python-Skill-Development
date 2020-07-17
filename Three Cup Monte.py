@@ -4,7 +4,7 @@
 __author__ = "Nurul Mamun"
 __date__ = " 08 July, 2020"
 __version__ = "1.0"
-__description__ = " Three Cup Monte Game"
+__description__ = " Simple approximation of Three Cup Monte Game"
 # ==============================================================
 
 # ==========Imports=============================================
